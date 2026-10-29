@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aurelia Jewels</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fontawesome-local.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top bar -->
+<div class="topbar">
+  <div class="container topbar-in">
+    <ul class="tb-links"><li><a href="#" class="hb">About Us</a></li><li><a href="#" class="hb">Privacy</a></li><li><a href="#" class="hb">FAQ</a></li><li><a href="#" class="hb">Careers</a></li></ul>
+    <ul class="tb-right">
+      <li><a href="#" class="hb">My Wishlist</a></li><li><a href="#" class="hb">Track Your Order</a></li>
+      <li><a href="#" class="hb sc" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#" class="hb sc" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#" class="hb sc" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#" class="hb sc" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="#" class="hb sc" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <input type="checkbox" id="burger" class="sr"><div class="container nav-in">
+    <a href="#" class="logo"><span class="logo-icon"><i class="fa-solid fa-gem"></i></span><b>Aurelia</b> Jewels</a>
+    <label for="burger" class="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul>
+        <li><a href="#" class="nb">Home</a></li>
+        <li><a href="#" class="nb">Rings</a></li>
+        <li><a href="#" class="nb">Necklaces</a></li>
+        <li><a href="#" class="nb">Bridal Collection</a></li>
+        <li class="has-drop"><a href="#" class="nb">Pages <i class="fa-solid fa-chevron-down caret"></i></a>
+          <div class="drop">
+            <div><h6><span>Pages</span></h6><a href="#">Login</a><a href="#">Cart</a><a href="#">Product Details</a><a href="#">Product Checkout</a></div>
+            <div><h6><span>Blog</span></h6><a href="#">Element</a><a href="#">Blog Details</a></div>
+          </div>
+        </li>
+        <li><a href="#" class="nb">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+      <a href="#" aria-label="Cart" class="cart"><i class="fa-solid fa-cart-shopping"></i><span class="badge">2</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="announce">Sale Up To 50% Biggest Discounts. Hurry! Limited Period Offer <a href="#">Shop Now</a></div>
+
+<!-- Hero -->
+<section class="hero">
+  <img class="hero-img" src="images/hero.jpg" alt="Luxury diamond jewelry campaign">
+  <div class="container">
+    <div class="hero-text">
+      <span class="script">Jewellery Sale</span>
+      <h1>Minimal Gold Style</h1>
+      <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+      <a href="#" class="btn-dark">Shop Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Categories -->
+<section class="container cats">
+  <a href="#" class="cat"><img src="images/category-1.jpg" alt="Rings"><div class="cat-cap"><h4>Rings</h4><span>Shop Now</span></div></a>
+  <a href="#" class="cat"><img src="images/category-2.jpg" alt="Necklaces"><div class="cat-cap"><h4>Necklaces</h4><span>Shop Now</span></div></a>
+  <a href="#" class="cat"><img src="images/category-3.jpg" alt="Bracelets"><div class="cat-cap"><h4>Bracelets</h4><span>Shop Now</span></div></a>
+</section>
+
+<!-- Trending -->
+<section class="container block tabs-box">
+<input type="radio" name="tab" id="tab0" class="sr">
+<input type="radio" name="tab" id="tab1" class="sr" checked>
+<input type="radio" name="tab" id="tab2" class="sr">
+<input type="radio" name="tab" id="tab3" class="sr">
+<div class="sec-head"><h3>Trending This Week</h3><div class="tabs"><label for="tab0">Rings</label><label for="tab1">Necklaces</label><label for="tab2">Earrings</label><label for="tab3">Bracelets</label></div></div>
+<div class="panels">
+<div class="panel panel0"><div class="slider">
+<input type="radio" name="tr0" id="tr0a" class="sr" checked><input type="radio" name="tr0" id="tr0b" class="sr">
+<label for="tr0a" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="tr0b" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="viewport"><div class="track"><div class="p-card"><div class="p-img"><img src="images/product-1.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Solitaire Gold Ring</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-2.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Twisted Band</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-3.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Pearl Ring</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-4.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Stackable Set</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-5.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Diamond Ring</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-6.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Signet Ring</a></h6><div class="price">$99.99 <s>$120.00</s></div></div></div></div></div></div>
+<div class="panel panel1"><div class="slider">
+<input type="radio" name="tr1" id="tr1a" class="sr" checked><input type="radio" name="tr1" id="tr1b" class="sr">
+<label for="tr1a" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="tr1b" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="viewport"><div class="track"><div class="p-card"><div class="p-img"><img src="images/product-7.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Pearl Necklace</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-8.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Heart Pendant</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-9.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Layered Chain</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-10.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Gold Choker</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-11.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Drop Pendant</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-12.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Charm Necklace</a></h6><div class="price">$99.99 <s>$120.00</s></div></div></div></div></div></div>
+<div class="panel panel2"><div class="slider">
+<input type="radio" name="tr2" id="tr2a" class="sr" checked><input type="radio" name="tr2" id="tr2b" class="sr">
+<label for="tr2a" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="tr2b" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="viewport"><div class="track"><div class="p-card"><div class="p-img"><img src="images/product-13.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Drop Earrings</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-14.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Gold Studs</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-15.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Pearl Hoops</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-16.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Chandelier Pair</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-17.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Huggie Hoops</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-18.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Stone Studs</a></h6><div class="price">$99.99 <s>$120.00</s></div></div></div></div></div></div>
+<div class="panel panel3"><div class="slider">
+<input type="radio" name="tr3" id="tr3a" class="sr" checked><input type="radio" name="tr3" id="tr3b" class="sr">
+<label for="tr3a" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="tr3b" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="viewport"><div class="track"><div class="p-card"><div class="p-img"><img src="images/product-19.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Beaded Bracelet</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-20.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Gold Bangle</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-21.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Charm Bracelet</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-22.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Cuff Bracelet</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-23.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Chain Bracelet</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/product-24.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Tennis Bracelet</a></h6><div class="price">$99.99 <s>$120.00</s></div></div></div></div></div></div>
+</div>
+</section>
+
+<!-- Testimonial -->
+<section class="testi">
+  <div class="container">
+    <h3>Customer Testimonial</h3>
+    <div class="t-wrap">
+<input type="radio" name="testi" id="ts0" class="sr" checked><input type="radio" name="testi" id="ts1" class="sr"><input type="radio" name="testi" id="ts2" class="sr">
+<div class="t-slide ts0"><label for="ts2" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="ts1" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="t-body"><p>Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p><div class="t-user"><span class="avatar">P<img src="images/avatar-1.jpg" alt=""></span><div><b>Petey Cruiser</b><small>Designer at Colorlib</small></div></div></div></div>
+<div class="t-slide ts1"><label for="ts0" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="ts2" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="t-body"><p>The pieces arrived beautifully packed and look even better in person. I get compliments every time I wear the necklace.</p><div class="t-user"><span class="avatar">L<img src="images/avatar-2.jpg" alt=""></span><div><b>Lena Hart</b><small>Stylist</small></div></div></div></div>
+<div class="t-slide ts2"><label for="ts1" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="ts0" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="t-body"><p>Fast delivery and great quality for the price. The ring I ordered fits perfectly and the gold has not faded.</p><div class="t-user"><span class="avatar">O<img src="images/avatar-3.jpg" alt=""></span><div><b>Omar Said</b><small>Photographer</small></div></div></div></div>
+</div>
+  </div>
+</section>
+
+<!-- You may like -->
+<section class="container block">
+  <h3 class="center">You May Like</h3>
+  <div class="slider">
+<input type="radio" name="like" id="likea" class="sr" checked><input type="radio" name="like" id="likeb" class="sr">
+<label for="likea" class="arrow prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></label><label for="likeb" class="arrow next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></label>
+<div class="viewport"><div class="track"><div class="p-card"><div class="p-img"><img src="images/like-1.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Classic Gold Watch</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/like-2.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Diamond Ring</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/like-3.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Pearl Strand</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/like-4.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Gold Drops</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/like-5.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Heart Pendant</a></h6><div class="price">$99.99 <s>$120.00</s></div></div><div class="p-card"><div class="p-img"><img src="images/like-6.jpg" alt="">
+<div class="p-tools"><a href="#" title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></a><a href="#" title="Wishlist"><i class="fa-regular fa-heart"></i></a><a href="#" title="Quick view"><i class="fa-solid fa-magnifying-glass-plus"></i></a></div></div>
+<h6><a href="#">Gold Bangle</a></h6><div class="price">$99.99 <s>$120.00</s></div></div></div></div></div>
+</section>
+
+<!-- News -->
+<section class="news">
+  <div class="container">
+    <h3 class="center">Latest News</h3>
+    <div class="news-grid">
+      <article><a href="#"><img src="images/news-1.jpg" alt=""></a><small>Jewellery Tips</small><h5><a href="#">How To Layer Necklaces Like A Pro</a></h5><p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus...</p><a href="#" class="more">Read More</a></article>
+      <article><a href="#"><img src="images/news-2.jpg" alt=""></a><small>Jewellery Tips</small><h5><a href="#">Gold Vs Silver: Which Suits You</a></h5><p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus...</p><a href="#" class="more">Read More</a></article>
+      <article><a href="#"><img src="images/news-3.jpg" alt=""></a><small>Jewellery Tips</small><h5><a href="#">Caring For Your Gold Jewellery</a></h5><p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus...</p><a href="#" class="more">Read More</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+  <div class="container feat-grid">
+    <div><i class="fa-solid fa-truck"></i><h6>Fast &amp; Free Delivery</h6><p>Free delivery on all orders</p></div>
+    <div><i class="fa-solid fa-money-check-dollar"></i><h6>Secure Payment</h6><p>Free delivery on all orders</p></div>
+    <div><i class="fa-solid fa-money-bill-1"></i><h6>Money Back Guarantee</h6><p>Free delivery on all orders</p></div>
+    <div><i class="fa-solid fa-user-clock"></i><h6>Online Support</h6><p>Free delivery on all orders</p></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="news-letter">
+      <div><h5>Subscribe Newsletter</h5><small>Subscribe newsletter to get 5% on all products.</small></div>
+      <form action="#" method="get"><input type="email" placeholder="Enter Your Email" required><button>Subscribe</button></form>
+      <span class="social"><a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
+    </div>
+    <div class="f-grid">
+      <a href="#" class="logo light"><span class="logo-icon"><i class="fa-solid fa-gem"></i></span><b>Aurelia</b> Jewels</a>
+      <div><h6>Shop Rings</h6><a href="#">Engagement</a><a href="#">Wedding Bands</a><a href="#">Gold</a><a href="#">Diamond</a><a href="#">Casual</a></div>
+      <div><h6>Shop Necklaces</h6><a href="#">Pendants</a><a href="#">Chains</a><a href="#">Pearls</a><a href="#">Chokers</a><a href="#">Layered</a></div>
+      <div><h6>Bridal Collection</h6><a href="#">Sets</a><a href="#">Earrings</a><a href="#">Bangles</a><a href="#">Tiaras</a><a href="#">Gifts</a></div>
+      <div><h6>Quick Links</h6><a href="#">Track Your Order</a><a href="#">Support</a><a href="#">FAQ</a><a href="#">Careers</a><a href="#">About</a><a href="#">Contact Us</a></div>
+    </div>
+    <p class="copy">Copyright © 2026 All rights reserved | Designed with <i class="fa-solid fa-heart gold"></i> for Aurelia Jewels</p>
+  </div>
+</footer>
+
+</body>
+</html>
